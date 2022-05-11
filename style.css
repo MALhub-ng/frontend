@@ -490,7 +490,7 @@ html {
   background-color: #0c2e8a;
 }
 
-.incuba a{
+.incuba a {
   text-decoration: none;
   color: white;
 }
@@ -682,6 +682,49 @@ html {
   }
 }
 
+/* Training Page */
+.training-banner {
+  height: 100vh;
+  background-image: url(./assets/img/malhub-learning.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subheading {
+  font-size: 1.625rem;
+  font-weight: 300;
+  position: relative;
+  margin-top: 1rem;
+  color: white;
+}
+
+.training-wrapper header {
+  padding-top: 130px;
+}
+
+.training-wrapper header h2 {
+  color: white;
+  font-size: 55px;
+  width: 70%;
+}
+
+.training-wrapper header p::before {
+  display: block;
+  position: relative;
+  top: 0;
+  width: 1.75rem;
+  height: 3px;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  content: "";
+}
+
+.training-category{
+  background-color: #F7F7F7;
+  height: 100vh;
+}
+
 /* END OF CONTACT CSS */
 
 /* media querry */
@@ -799,7 +842,7 @@ html {
     display: flex;
     flex-direction: column;
   }
-  .priv{
+  .priv {
     width: 600px !important;
   }
 }
@@ -831,21 +874,21 @@ html {
   .parrallax {
     height: 120vh;
   }
-  .in h1{
+  .in h1 {
     font-size: 30px !important;
   }
 
-  .incubation header{
+  .incubation header {
     margin-top: -240px;
   }
 
-  .incubation img{
+  .incubation img {
     height: 250px;
     margin-left: 25px !important;
     margin-top: 50px;
   }
 
-  .incubation .about-content{
+  .incubation .about-content {
     margin-left: 15px;
   }
 
@@ -940,7 +983,7 @@ html {
     display: flex;
     flex-direction: column;
   }
-  .priv{
+  .priv {
     width: 600px !important;
   }
 }
@@ -979,7 +1022,7 @@ html {
     font-size: 30px;
   }
 
-  .priv{
+  .priv {
     width: 600px !important;
   }
   .parrallax {
@@ -1068,21 +1111,21 @@ html {
     font-weight: bold;
   }
 
-  .in h1{
+  .in h1 {
     font-size: 30px !important;
   }
 
-  .incubation header{
+  .incubation header {
     margin-top: -240px;
   }
 
-  .incubation img{
+  .incubation img {
     height: 250px;
     margin-left: 25px !important;
     margin-top: 50px;
   }
 
-  .incubation .about-content{
+  .incubation .about-content {
     margin-left: 15px;
   }
 
