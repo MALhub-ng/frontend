@@ -720,9 +720,12 @@ html {
   content: "";
 }
 
-.training-category{
-  background-color: #F7F7F7;
-  height: 100vh;
+.training-category {
+  background-color: #f7f7f7;
+  /* height: 100vh; */
+}
+.card-body h1 {
+  font-size: 25px;
 }
 
 /* END OF CONTACT CSS */
