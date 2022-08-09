@@ -45,7 +45,7 @@
     <header class="header">
       <div class="logo">
         <a href="index.html">
-          <img src="assets/img/logo192.png" alt="" />
+          <img src="assets/img/logo192.png" alt="" style="margin-right: 40px" />
         </a>
       </div>
       <div class="hamburger"></div>
@@ -62,118 +62,115 @@
       </ul>
     </nav>
 
-    <section class="home-containers">
-      <div class="container about-section">
-        <div class="abou">
-          <h1 style="font-weight: bolder; font-size: 45px">About US</h1>
-          <div style="width: 100%; margin: auto">
-            <img
-              src="assets/img/lascotstudio-74.JPG"
-              style="width: 100%; margin: auto; object-fit: contain"
-              alt="malhub_about"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="container">
-      <div class="container mt-5" style="position: relative">
-        <p></p>
-        <p>
-          Our vision is captured within prongs:<b> We Create,</b
-          ><b> Build & Develop The Tech Ecosystem.</b>
-        </p>
+    <div class="container contact py-5">
+      <header>
+        <h1>Want to Get In Touch?</h1>
+      </header>
+    </div>
+    <section id="contact" class="contact" style="padding-bottom: 65px">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bx bx-location-plus"></i>
+                <h4>Location:</h4>
+                <p>No 1 Ilofa Road GRA Ilorin Kwara State</p>
+              </div>
 
-        <div class="row mt-5 mb-5">
-          <div
-            class="col-md-5 d-flex justify-content-center align-items-center"
-          >
-            <img
-              src="assets/img/teamwork-removebg-preview.png"
-              style="width: 300px"
-              alt=""
-            />
-          </div>
-          <div class="col-md-7">
-            <div class="about-content">
-              <div>
-                <p><b>As an Innovation Hub</b></p>
-                <p>
-                  We are committed to building resilient innovation ecosystems
-                  in underserved university communities.
-                </p>
+              <div class="email">
+                <i class="bx bx-envelope"></i>
+                <h4>Email:</h4>
+                <p>hello@malhub.com.ng</p>
+                <p style="margin-top: -25px;">Sales@malhub.com.ng</p>
               </div>
-              <div>
-                <p><b>As an Innovation Hub</b></p>
-                <p>
-                  We are committed to building resilient innovation ecosystems
-                  in underserved university communities.
-                </p>
+
+              <div class="phone">
+                <i class="bx bx-phone"></i>
+                <h4>Call:</h4>
+                <p>+234 81 4636 7757</p>
+                <p style="margin-top: -25px;">+234 90 4093 1311</p>
               </div>
-              <div>
-                <p><b>As an Innovation Hub</b></p>
-                <p>
-                  We are committed to building resilient innovation ecosystems
-                  in underserved university communities.
-                </p>
-              </div>
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.186805035567!2d4.562702914782727!3d8.481209493902037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10364d20a537041d%3A0xe34a58a23be5166f!2sMALhub!5e0!3m2!1sen!2sng!4v1637851325108!5m2!1sen!2sng"
+                frameborder="0"
+                style="border: 0; width: 100%; height: 290px"
+                allowfullscreen
+              ></iframe>
             </div>
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form
+              action="forms/contact.php"
+              method="post"
+              role="form"
+              class="php-email-form"
+            >
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    id="name"
+                    required
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    id="email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="subject"
+                  id="subject"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea
+                  class="form-control"
+                  name="message"
+                  rows="10"
+                  required
+                ></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">
+                  Your message has been sent. Thank you!
+                </div>
+              </div>
+              <div class="text-center">
+                <button type="submit">Send Message</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </section>
-    <section class="container">
-      <div class="container gallery">
-        <h1 class="my-4">Gallery</h1>
-        <div
-          class="row justify-content-between"
-          style="width: 100%; margin: auto"
-        >
-          <div class="col-sm-12 col-md-5 px-2">
-            <div class="gallery-img-box">
-              <img src="./assets/img/malhub-ui-ux.jpg" alt="malhub" />
-            </div>
-            <p class="mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-              sapiente minima assumenda dicta eveniet animi enim magni
-            </p>
-            <p><b>Lorem, ipsum.</b><br />Content Writer/Editor, Ennovate Lab</p>
-          </div>
-          <div class="col-sm-12 col-md-5 px-2">
-            <div class="gallery-img-box mt-5" style="height: 400px">
-              <img src="./assets/img/no-code.jpg" alt="malhub" />
-            </div>
-            <p class="mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-              sapiente minima assumenda dicta eveniet animi enim magni
-            </p>
-            <p><b>Lorem, ipsum.</b><br />Content Writer/Editor, Ennovate Lab</p>
-          </div>
-        </div>
-        <!-- <div class="row justify-content-between">
-          <div class="col-sm-12 col-md-5 px-2">
-            <div class="gallery-img-box mt-5" style="height: 400px">
-              <img src="./assets/img/lascotstudio-25.JPG" alt="malhub" />
-            </div>
-            <p class="mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-              sapiente minima assumenda dicta eveniet animi enim magni
-            </p>
-            <p><b>Lorem, ipsum.</b><br />Content Writer/Editor, Ennovate Lab</p>
-          </div>
-          <div class="col-sm-12 col-md-5 px-2">
-            <div class="gallery-img-box">
-              <img src="./assets/img/lascotstudio-25.JPG" alt="malhub" />
-            </div>
-            <p class="mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-              sapiente minima assumenda dicta eveniet animi enim magni
-            </p>
-            <p><b>Lorem, ipsum.</b><br />Content Writer/Editor, Ennovate Lab</p>
-          </div>
-        </div> -->
-      </div>
-    </section>
+
+    <div class="floating-messaging">
+      <a href="https://api.whatsapp.com/send/?phone=%20234%20816%20895%203635&amp;text=Hello%20Malhub%20Academy,%20I%E2%80%99ll%20like%20to%20make%20an%20enquiry."
+          class="float" target="_blank">
+          <i class='bx bxl-whatsapp'></i>
+      </a>
+    </div>
 
     <footer class="container-fluid text-white mt-5 px-5">
       <div class="p-5">
@@ -181,8 +178,8 @@
           <div class="col-sm-6 col-md-4">
             <h1 class="text-black">About us</h1>
             <ul>
-              <li><a href="#">Innovation hub</a></li>
-              <li><a href="#">Startups</a></li>
+              <li><a href="incubation.html">Innovation hub</a></li>
+              <li><a href="incubation.html">Startups</a></li>
               <li><a href="education.html">Education</a></li>
             </ul>
           </div>
@@ -221,20 +218,17 @@
         <div class="mt-4">
           <hr />
         </div>
-        <div
-          class="d-flex justify-content-between down col-md-10"
-          style="color: black"
-        >
+        <div class="d-flex justify-content-between down col-md-10" style="color: black">
           <p>
             &copy;
             <script>
               document.write(new Date().getFullYear());
             </script>
-            <a href="/">Malhub</a>
+            <a href="/">MALhub</a>
           </p>
           <div class="d-flex gap-2 text-black">
-            <p>Legal</p>
-            <p class="priv">Privacy Policy</p>
+            <p><a href="">Legal</a></p>
+            <p class="priv"><a href="">Privacy Policy</a></p>
           </div>
         </div>
       </div>
