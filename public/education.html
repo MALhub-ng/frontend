@@ -23,6 +23,29 @@
     <link href="https://unpkg.com/boxicons@2.1.0/css/boxicons.min.css" rel="stylesheet" />
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.3.4/dist/aos.css" rel="stylesheet" />
 
+
+    <style>
+        .carousel-indicators {
+            bottom: 0px;
+            justify-content: start;
+            margin-left: 26%;
+        }
+
+        .carousel-indicators [data-bs-target] {
+            background-color: #000;
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+        }
+
+        @media (max-width:768px) {
+            .carousel-indicators {
+                bottom: -30px;
+                margin-left: 5px;
+            }
+        }
+    </style>
+
 </head>
 
 <body>
@@ -232,107 +255,7 @@
                 </div>
             </div>
         </section>
-        </section>
 
-        <!-- <div class="container mb-5">
-            <div class="category-wrapper py-5">
-                <header class="pt-4">
-                    <h3>Top Demanding Courses</h3>
-                </header>
-                <div>
-                    <div class="card pt-3 pb-3 px-2">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <div class="course-name">Frontend Development</div>
-                            <div class="app">
-                                <a href="https://bit.ly/malhubtechskills">
-                                    <button class="btn btn-primary"
-                                        title="Apply For Frontend Development Course">Apply</button>
-                                </a>
-                                <a href="tel:+234 81 4636 7757">
-                                    <button class="btn btn-secondary"
-                                        title="Read Course Details And Requirements">Call</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card pt-3 pb-3 px-2">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <div class="course-name">Backend Development</div>
-                            <div class="app">
-                                <a href="https://bit.ly/malhubtechskills">
-                                    <button class="btn btn-primary"
-                                        title="Apply For Frontend Development Course">Apply</button>
-                                </a>
-                                <a href="tel:+234 81 4636 7757">
-                                    <button class="btn btn-secondary"
-                                        title="Read Course Details And Requirements">Call</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card pt-3 pb-3 px-2">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <div class="course-name">Full-Stack Development</div>
-                            <div class="app">
-                                <a href="https://bit.ly/malhubtechskills">
-                                    <button class="btn btn-primary"
-                                        title="Apply For Frontend Development Course">Apply</button>
-                                </a>
-                                <a href="tel:+234 81 4636 7757">
-                                    <button class="btn btn-secondary"
-                                        title="Read Course Details And Requirements">Call</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card pt-3 pb-3 px-2">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <div class="course-name">UI/UX Design</div>
-                            <div class="app">
-                                <a href="https://bit.ly/malhubtechskills">
-                                    <button class="btn btn-primary"
-                                        title="Apply For Frontend Development Course">Apply</button>
-                                </a>
-                                <a href="tel:+234 81 4636 7757">
-                                    <button class="btn btn-secondary"
-                                        title="Read Course Details And Requirements">Call</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card pt-3 pb-3 px-2">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <div class="course-name">Graphics Design</div>
-                            <div class="app">
-                                <a href="https://bit.ly/malhubtechskills">
-                                    <button class="btn btn-primary"
-                                        title="Apply For Frontend Development Course">Apply</button>
-                                </a>
-                                <a href="tel:+234 81 4636 7757">
-                                    <button class="btn btn-secondary"
-                                        title="Read Course Details And Requirements">Call</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card pt-3 pb-3 px-2">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <div class="course-name">Canva Design</div>
-                            <div class="app">
-                                <a href="https://bit.ly/malhubtechskills">
-                                    <button class="btn btn-primary"
-                                        title="Apply For Frontend Development Course">Apply</button>
-                                </a>
-                                <a href="tel:+234 81 4636 7757">
-                                    <button class="btn btn-secondary"
-                                        title="Read Course Details And Requirements">Call</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
         <section style="background-color: #f7f7f7;" class="py-5">
             <div class="container">
                 <div class="mb-5 testimoinals">
@@ -341,83 +264,103 @@
                             <h1>Testimonials</h1>
                             <div class="underline"></div>
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="col-sm-12 col-md-4">
-                                <div class="card rounded-4 px-4 py-45">
-                                    <div class="text-center">
-                                        <div>
-                                            <img src="./assets/img/12 (11).jpg" alt="" class="my-4 rounded-circle"
-                                                width="30px">
-                                        </div>
-                                        <div class="carousel-content">
-                                            <div style="font-weight: 300;">
-                                                <p>
-                                                    <i>
-                                                        “A few months ago, when I was looking for an IT placement, all I
-                                                        wanted to do is to find a reputable place to learn software
-                                                        development, One day I found MALhub through a recommendation
-                                                        from a family friend, and I joined with zero knowledge and after
-                                                        few months of learning, I become a pro solving real-time
-                                                        problems with my new knowledge, I got a job after my training at
-                                                        MALhub.”
-                                                    </i>
-                                                </p>
-                                                <div class="underline"></div>
-                                                <h2>Zuleayat Aderina</h2>
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="">
+                                        <div class="row align-items-center justify-content-between">
+                                            <div class="col-sm-6 col-md-3 col-lg-3">
+                                                <div class="card w-100 py-3">
+                                                    <img src="./assets/img/split-image3.webp" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 col-md-9 col-lg-9">
+                                                <div class="carousel-content w-100 p-2">
+                                                    <div class="qoute">
+                                                        <span>"</span>
+                                                    </div>
+                                                    <div style="font-weight: 300;">
+                                                        <p>
+                                                            “I never thought it will be very easy for me to kickstart my
+                                                            tech journey, all I wanted to do is to learn a vocational
+                                                            skill after my NYSC program, my husband suggested MALhub as
+                                                            a place where my dream come true, and I joined their
+                                                            full-stack development Bootcamp where I learn web
+                                                            programming, I got several job offer after my training at
+                                                            MALhub. I become fulfilled and my husband was proud of my
+                                                            development.”
+                                                        </p>
+                                                        <h2 class="mt-3">Aminat Abdulsalam</h2>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-12 col-md-4">
-                                <div class="card rounded-4 px-4">
-                                    <div class="text-center">
-                                        <div>
-                                            <img src="./assets/img/12 (11).jpg" alt="" class="my-4 rounded-circle"
-                                                width="30px">
-                                        </div>
-                                        <div class="carousel-content">
-                                            <div style="font-weight: 300;">
-                                                <p>
-                                                    <i>
-                                                        “One of the best things that happens to me during the ASUU
-                                                        strike was discovering MALhub, they made my dream come true,
-                                                        after being idle for a few months, I joined the Product Design
-                                                        Bootcamp in April 2022, it opens my eyes to endless
-                                                        possibilities by making me achieving my learning goals within a
-                                                        short period of time, providing me with top-notch resources to
-                                                        scale my career as a product designer.”
-                                                    </i>
-                                                </p>
-                                                <div class="underline"></div>
-                                                <h2>Uche</h2>
+                                <div class="carousel-item">
+                                    <div class="">
+                                        <div class="row align-items-center justify-content-between">
+                                            <div class="col-sm-6 col-md-3 col-lg-3">
+                                                <div class="card w-100 py-3">
+                                                    <img src="./assets/img/split-image3.webp" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 col-md-9 col-lg-9">
+                                                <div class="carousel-content w-100 p-2">
+                                                    <div class="qoute">
+                                                        <span>"</span>
+                                                    </div>
+                                                    <div style="font-weight: 300;">
+                                                        <p>
+                                                            “A few months ago, when I was looking for an IT placement,
+                                                            all I wanted to do is to find a reputable place to learn
+                                                            software development, One day I found MALhub through a
+                                                            recommendation from a family friend, and I joined with zero
+                                                            knowledge and after few months of learning, I become a pro
+                                                            solving real-time problems with my new knowledge, I got a
+                                                            job after my training at MALhub.”
+                                                        </p>
+                                                        <h2 class="mt-3">Zuleayat Aderina</h2>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-12 col-md-4">
-                                <div class="card rounded-4 px-4 ">
-                                    <div class="text-center">
-                                        <div>
-                                            <img src="./assets/img/12 (11).jpg" alt="" class="my-4 rounded-circle"
-                                                width="30px">
-                                        </div>
-                                        <div class="carousel-content">
-                                            <div style="font-weight: 300;">
-                                                <p>
-                                                    <i>
-                                                        “I never thought it will be very easy for me to kickstart my
-                                                        tech journey, all I wanted to do is to learn a vocational skill
-                                                        after my NYSC program, my husband suggested MALhub as a place
-                                                        where my dream come true, and I joined their full-stack
-                                                        development Bootcamp where I learn web programming, I got
-                                                        several job offer after my training at MALhub. I become
-                                                        fulfilled and my husband was proud of my development.”
-                                                    </i>
-                                                </p>
-                                                <div class="underline"></div>
-                                                <h2>Sulyman Aminah</h2>
+                                <div class="carousel-item">
+                                    <div class="">
+                                        <div class="row align-items-center justify-content-between">
+                                            <div class="col-sm-6 col-md-3 col-lg-3">
+                                                <div class="card w-100 py-3">
+                                                    <img src="./assets/img/split-image3.webp" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 col-md-9 col-lg-9">
+                                                <div class="carousel-content w-100 p-2">
+                                                    <div class="qoute">
+                                                        <span>"</span>
+                                                    </div>
+                                                    <div style="font-weight: 300;">
+                                                        <p>
+                                                            “One of the best things that happens to me during the ASUU
+                                                            strike was discovering MALhub, they made my dream come true,
+                                                            after being idle for a few months, I joined the Product
+                                                            Design Bootcamp in April 2022, it opens my eyes to endless
+                                                            possibilities by making me achieving my learning goals
+                                                            within a short period, providing me with top-notch resources
+                                                            to scale my career as a product designer.”
+                                                        </p>
+                                                        <h2 class="mt-3">Uche</h2>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -428,111 +371,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- <section class="faq my-5">
-            <div class="container">
-                <div>
-                    <div class="text-center my-5">
-                        <h2>Frequently Asked Questions</h2>
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <div class="col-sm-12 col-md-10 col-lg-10 m-auto">
-                            <div class="accordion" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseOne" aria-expanded="true"
-                                            aria-controls="collapseOne">
-                                            Why Is This Course Relevant Today?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse show"
-                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            There's never been a better time to start a career as a web developer
-                                            because there
-                                            is a consistent demand for developers who both write high-quality code and
-                                            experienced problem solvers who can design creative solutions.
-
-                                            The web and the applications built for it have transformed the way we do
-                                            business
-                                            globally, and is disrupting industries from education to manufacturing.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                            aria-expanded="false" aria-controls="collapseThree">
-                                            Why Is This Course Relevant Today?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse"
-                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            There's never been a better time to start a career as a web developer
-                                            because there
-                                            is a consistent demand for developers who both write high-quality code and
-                                            experienced problem solvers who can design creative solutions.
-
-                                            The web and the applications built for it have transformed the way we do
-                                            business
-                                            globally, and is disrupting industries from education to manufacturing.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                            aria-expanded="false" aria-controls="collapseTwo">
-                                            Why Is This Course Relevant Today?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse"
-                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            There's never been a better time to start a career as a web developer
-                                            because there
-                                            is a consistent demand for developers who both write high-quality code and
-                                            experienced problem solvers who can design creative solutions.
-
-                                            The web and the applications built for it have transformed the way we do
-                                            business
-                                            globally, and is disrupting industries from education to manufacturing.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingFour">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                            aria-expanded="false" aria-controls="collapseFour">
-                                            Why Is This Course Relevant Today?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseFour" class="accordion-collapse collapse"
-                                        aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            There's never been a better time to start a career as a web developer
-                                            because there
-                                            is a consistent demand for developers who both write high-quality code and
-                                            experienced problem solvers who can design creative solutions.
-
-                                            The web and the applications built for it have transformed the way we do
-                                            business
-                                            globally, and is disrupting industries from education to manufacturing.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
 
         <div class="floating-messaging">
             <a href="https://api.whatsapp.com/send/?phone=%20234%20816%20895%203635&amp;text=Hello%20Malhub%20Academy,%20I%E2%80%99ll%20like%20to%20make%20an%20enquiry."
@@ -545,23 +383,6 @@
     <footer class="container-fluid text-white mt-5 px-5">
         <div class="p-5">
             <div class="row">
-                <div class="col-sm-6 col-md-4">
-                    <h1 class="text-black">About us</h1>
-                    <ul>
-                        <li><a href="incubation.html">Innovation hub</a></li>
-                        <li><a href="incubation.html">Startups</a></li>
-                        <li><a href="#">Education</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <h1 class="text-black">Quick Links</h1>
-                    <ul>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="contact.html">contact us</a></li>
-                        <li><a href="https://medium.com/mal-hub">Blog</a></li>
-                    </ul>
-                </div>
-
                 <div class="col-sm-6 col-md-4 text-black">
                     <h1>MALhub</h1>
                     <p style="color: #6b6f7a">
@@ -575,6 +396,35 @@
 
                         <a href="https://linkedin/malhubng" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                     </div>
+                    <div class="d-flex gap-2 text-black mt-3">
+                        <p><a href="">Legal</a></p>
+                        <p class="priv"><a href="./faqs.html">Faqs</a></p>
+                        <p class="priv"><a href="./privacy-and-policy.html">Privacy Policy</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <h1 class="text-black">About us</h1>
+                    <ul>
+                        <li><a href="incubation.html">Innovation hub</a></li>
+                        <li><a href="incubation.html">Startups</a></li>
+                        <li><a href="education.html">Education</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-2">
+                    <h1 class="text-black">Quick Links</h1>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">contact us</a></li>
+                        <li><a href="https://medium.com/mal-hub">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <h1 class="text-black">Quick Links</h1>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">contact us</a></li>
+                        <li><a href="https://medium.com/mal-hub">Blog</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="mt-4">
@@ -588,13 +438,10 @@
                     </script>
                     <a href="/">MALhub</a>
                 </p>
-                <div class="d-flex gap-2 text-black">
-                    <p><a href="">Legal</a></p>
-                    <p class="priv"><a href="">Privacy Policy</a></p>
-                </div>
             </div>
         </div>
     </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">

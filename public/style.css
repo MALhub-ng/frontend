@@ -22,6 +22,7 @@ body {
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
 ul {
   margin: 0;
 }
@@ -124,7 +125,7 @@ ul {
   max-width: 50%;
 }
 
-.navigation ul > li {
+.navigation ul>li {
   text-align: center;
 }
 
@@ -135,31 +136,36 @@ ul {
   transition: all 0.2s;
   font-family: var(--lato-font-family);
 }
+
 .nav_link:hover {
   text-decoration: underline;
   font-size: 3.5rem;
 }
+
 .container {
   /* width: 80%; */
   margin: auto;
 }
+
 section {
   position: relative;
 }
+
 .top-section {
   margin-top: 100px;
   text-align: center;
   position: relative;
 }
+
 .top-section h1 {
   width: 100%;
   margin: auto;
   font-size: 90px;
   /* line-height: 0px; */
 }
+
 .text-background {
-  background: repeating-linear-gradient(
-      -45deg,
+  background: repeating-linear-gradient(-45deg,
       #0054fd,
       #ff19f7 7.14%,
       #ff2e5d 14.28%,
@@ -167,9 +173,7 @@ section {
       #ffaa07 38.56%,
       #ff2e5d 55.7%,
       #ff19f7 72.84%,
-      #0054fd 90%
-    )
-    0 0/800vw 800vw;
+      #0054fd 90%) 0 0/800vw 800vw;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -178,14 +182,17 @@ section {
   -webkit-animation: gradient-rotate 4s linear 0s infinite normal none running;
   animation: gradient-rotate 4s linear 0s infinite normal none running;
 }
+
 .top-section p {
   width: 70%;
   margin: auto;
   color: gray;
 }
+
 .btn-container {
   margin-top: 40px;
 }
+
 .btn-container a {
   background-color: #e5e7ed;
   border: 2px solid crimson;
@@ -195,25 +202,31 @@ section {
   color: black;
   font-size: 18px;
 }
+
 .btn-container a:hover {
   background-color: #47b2e4;
   color: white;
 }
+
 .slider {
   background: white;
   height: 40vh;
 }
+
 .carousel-item {
   font-size: 40px;
   font-weight: 600;
 }
+
 .carousel-row {
   margin-bottom: px;
 }
+
 .counter {
   font-size: 50px;
   font-weight: 800;
 }
+
 .parrallax {
   text-align: center;
   background-image: url(assets/img/banner.jpg);
@@ -226,22 +239,27 @@ section {
   justify-content: center;
   align-items: center;
 }
+
 .parrallax-content {
   width: 60%;
   margin: auto;
 }
+
 .parrallax-content h1 {
   font-size: 60px;
   font-weight: 500;
   color: white;
 }
+
 .parrallax-content a {
   font-weight: 500;
 }
+
 .our-vision {
   background: white;
   margin-top: 50px;
 }
+
 .our-vision h1,
 .partner h1 {
   font-weight: 800;
@@ -273,6 +291,7 @@ section {
 .about-section {
   position: relative;
 }
+
 .about-section h1 {
   margin: 40px 0;
 }
@@ -294,14 +313,17 @@ section {
   margin: 10px;
   text-align: center;
 }
+
 .gallery {
   margin-top: 70px;
   margin-bottom: 50px;
 }
+
 .gallery-img-box {
   height: 450px;
   width: 93%;
 }
+
 .gallery-img-box img {
   width: 100%;
   height: 100%;
@@ -310,6 +332,7 @@ section {
   object-position: center;
   border-radius: 3px;
 }
+
 .gallery p {
   font-size: 0.9rem;
   font-weight: 400;
@@ -429,32 +452,39 @@ html {
   background-position: center;
   background-size: cover;
 }
+
 .co-work-container h1 {
   font-size: 60px;
   font-weight: 600;
   margin-top: 70px;
 }
+
 .co-working-hr {
   width: 100%;
   height: 5px;
   background-color: #0c2e8a;
 }
+
 .pricing-header {
   font-size: 20px;
   font-weight: 400;
 }
+
 .co-working-img-box {
   width: 100%;
   margin: auto;
 }
+
 .co-working-img-box img {
   width: 100%;
   object-fit: contain;
 }
+
 .co-work-btn button {
   background-color: #e5e7ed;
   color: black;
 }
+
 .co-work-btn button:hover {
   background-color: #47b2e4;
   color: white;
@@ -589,7 +619,7 @@ html {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
@@ -668,6 +698,7 @@ html {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -677,6 +708,7 @@ html {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -702,6 +734,7 @@ html {
 a {
   text-decoration: none;
 }
+
 .subheading {
   font-size: 28px;
   line-height: 36px;
@@ -735,6 +768,7 @@ a {
   background-color: #f7f7f7;
   /* height: 100vh; */
 }
+
 .training-category .card {
   margin: 0 15px 40px;
   background-color: #ffffff;
@@ -1132,7 +1166,8 @@ a {
   margin-top: 136px !important;
   margin-bottom: 125px !important;
 }
-.image-text:not(.has-bg) .image-box + .text-box {
+
+.image-text:not(.has-bg) .image-box+.text-box {
   max-width: 486px;
   margin-top: -6px;
 }
@@ -1369,6 +1404,7 @@ a {
 img {
   max-width: 100%;
 }
+
 img {
   width: 100%;
 }
@@ -1432,35 +1468,57 @@ img {
   margin-bottom: 20px;
   color: rgba(39, 50, 69, 0.8);
 }
+
 .testimoinals,
 .faq {
   min-height: 70vh;
   display: flex;
   align-items: center;
 }
+
 .testimoinals h1 {
   font-size: 40px;
   margin: 0;
 }
+
 .underline {
   width: 100px;
   margin: auto;
-  border-bottom: 4px dashed #0054fd;
+  border-bottom: 4px dashed #000;
 }
 
 .py-45 {
   padding-bottom: 25px !important;
 }
+
 .testimoinals img {
-  width: 100px;
-  height: 100px;
+  width: 90%;
+  margin: auto;
+  height: 250px;
 }
+
 .testimoinals .carousel-content h2 {
   font-size: 20px !important;
-  color: #0054fd;
+  color: #000;
 }
+
 .testimoinals .carousel-item p {
   font-size: 13px;
+}
+
+.testimoinals .qoute {
+  background-color: #0054fd75;
+  width: 20px;
+  height: 20px;
+  padding: 42px 30px 18px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  font-family: cursive;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 /* Enroll */
@@ -1520,7 +1578,7 @@ img {
   padding: 0 25px;
 }
 
-.breadcrumb-item + .breadcrumb-item {
+.breadcrumb-item+.breadcrumb-item {
   padding-left: 0;
 }
 
@@ -1532,7 +1590,7 @@ a {
   text-decoration: none !important;
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
   float: left;
   padding-right: 0px;
   content: "";
@@ -1659,6 +1717,11 @@ a {
   padding-right: 100px;
 }
 
+#course-faqs,
+#certificate-faqs {
+  display: none;
+}
+
 /* END OF CONTACT CSS */
 
 /* media querry */
@@ -1666,6 +1729,7 @@ a {
   .content-banner {
     height: auto !important;
   }
+
   .content-banner .text-box {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -1674,20 +1738,25 @@ a {
   .category-header h3 {
     font-size: 29px !important;
   }
+
   .content-banner .content {
     padding-left: 20px !important;
   }
+
   .content-banner h1 {
     font-size: 29px !important;
   }
+
   .content-banner .link {
     margin-top: 32px !important;
   }
+
   .list-wrap {
     padding-top: 24px;
     padding-bottom: 24px;
     margin-bottom: 80px;
   }
+
   .list-wrap .list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1730,40 +1799,48 @@ a {
     width: 100%;
     max-width: 550px;
   }
+
   .text-image .image-box {
     width: 100%;
     margin-right: auto;
     max-width: 550px;
     margin-top: 40px;
   }
+
   .image-text.has-bg {
     margin-top: 60px;
     margin-bottom: 60px;
   }
+
   .image-text .content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
   .image-text.has-bg .image-box {
     width: 100%;
   }
+
   .image-text.has-bg .image-box span {
     height: 0;
     padding-top: 60%;
   }
+
   .image-text.has-bg .text-box {
     width: 100%;
     max-width: 100%;
     padding: 40px;
   }
+
   .gallery {
     margin-top: 60px;
     margin-bottom: 60px;
     padding-top: 60px;
     padding-bottom: 60px;
   }
+
   .gallery .gallery-box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1772,6 +1849,7 @@ a {
     margin-left: 0;
     margin-bottom: -40px;
   }
+
   .gallery .item {
     width: 95%;
     margin-bottom: 40px;
@@ -1782,12 +1860,14 @@ a {
     margin-top: 60px;
     margin-bottom: 60px;
   }
+
   .image-text .content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
   .image-text:not(.has-bg) .image-box {
     width: 100% !important;
     margin-right: 0 !important;
@@ -1797,15 +1877,18 @@ a {
   .image-text:not(.has-bg) .image-box span {
     padding-top: 60% !important;
   }
-  .image-text:not(.has-bg) .image-box + .text-box {
+
+  .image-text:not(.has-bg) .image-box+.text-box {
     width: 100%;
     max-width: 100%;
     padding: 0;
     padding-top: 40px;
   }
+
   .testimoinals .carousel-item h2 {
     font-size: 30px;
   }
+
   .testimoinals .carousel-item p {
     font-size: 15px !important;
     line-height: normal;
@@ -1814,6 +1897,7 @@ a {
   h2 {
     font-size: 29px !important;
   }
+
   .ti-box p {
     font-size: 16px;
   }
@@ -1838,6 +1922,7 @@ a {
   .win-with-alx {
     margin-top: 50px;
   }
+
   .win-with-alx .win-with-alx-box {
     display: block;
   }
@@ -1857,6 +1942,7 @@ a {
     font-size: 20px;
     line-height: 1.5;
   }
+
   .win-with-alx .win-with-alx-box .content {
     -webkit-column-count: inherit;
     -moz-column-count: inherit;
@@ -1997,25 +2083,31 @@ a {
     display: flex;
     flex-direction: column;
   }
+
   .priv {
     width: 600px !important;
   }
+
   .testimoinals .carousel-item h2 {
     font-size: 30px;
   }
+
   .testimoinals .carousel-item p {
     font-size: 15px !important;
     line-height: normal;
   }
+
   .testimoinals .carousel-item .carousel-image {
     width: 90%;
     margin: auto;
   }
+
   .testimoinals .carousel-content {
     width: 95%;
     margin: auto;
   }
-  .testimoinals .card > div {
+
+  .testimoinals .card>div {
     flex-direction: column-reverse;
   }
 }
@@ -2047,6 +2139,7 @@ a {
   .parrallax {
     height: 120vh;
   }
+
   .in h1 {
     font-size: 30px !important;
   }
@@ -2169,12 +2262,15 @@ a {
     display: flex;
     flex-direction: column;
   }
+
   .priv {
     width: 600px !important;
   }
+
   .testimoinals .carousel-item h2 {
     font-size: 30px;
   }
+
   .testimoinals .carousel-item p {
     font-size: 15px !important;
     line-height: normal;
@@ -2218,6 +2314,7 @@ a {
   .priv {
     width: 600px !important;
   }
+
   .parrallax {
     height: 100vh;
   }
@@ -2330,9 +2427,11 @@ a {
     width: 130% !important;
     text-align: justify;
   }
+
   .testimoinals .carousel-item h2 {
     font-size: 30px;
   }
+
   .testimoinals .carousel-item p {
     font-size: 15px !important;
     line-height: normal;
@@ -2345,9 +2444,11 @@ footer ul {
   margin-top: 30px;
   color: #6b6f7a;
 }
+
 footer li {
   list-style: none;
 }
+
 footer a {
   text-decoration: none;
   color: #6b6f7a;
@@ -2379,6 +2480,7 @@ footer,
 a {
   font-size: 16px;
 }
+
 footer h1 {
   font-weight: 800;
 }
