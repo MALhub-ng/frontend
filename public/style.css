@@ -154,7 +154,7 @@ section {
 .top-section h1 {
   width: 100%;
   margin: auto;
-  font-size: 70px;
+  font-size: 90px;
   /* line-height: 0px; */
 }
 .text-background {
@@ -692,15 +692,21 @@ html {
   background-size: cover;
 }
 
+.training-wrapper {
+  position: relative;
+  z-index: 2;
+  max-width: 500px;
+  padding-top: 0px;
+}
+
 a {
   text-decoration: none;
 }
 .subheading {
-  font-size: 1.625rem;
-  font-weight: 300;
-  position: relative;
-  margin-top: 1rem;
-  color: white;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  color: #ffffff;
 }
 
 .training-wrapper header {
@@ -708,9 +714,10 @@ a {
 }
 
 .training-wrapper header h2 {
-  color: white;
-  font-size: 55px;
-  width: 70%;
+  font-size: 60px;
+  line-height: 72px;
+  color: #ffffff;
+  margin-bottom: 26px;
 }
 
 .training-wrapper header p::before {
@@ -729,15 +736,12 @@ a {
   /* height: 100vh; */
 }
 .training-category .card {
+  margin: 0 15px 40px;
   background-color: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1),
     0px 1px 2px rgba(16, 24, 40, 0.06) !important;
   box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1),
     0px 1px 2px rgba(16, 24, 40, 0.06) !important;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
 }
 
 .card-body h1 {
@@ -759,7 +763,7 @@ a {
 }
 
 .training-category .card-image1 {
-  background-image: url(assets/img/front-end.webp);
+  background-image: url(assets/img/malhub-front-end.jpg);
   height: 200px;
   background-position: center;
   background-size: cover;
@@ -773,22 +777,32 @@ a {
 }
 
 .training-category .card-image3 {
-  background-image: url(assets/img/virtual.webp);
+  background-image: url(assets/img/malhub-data-analytics.jpg);
   height: 200px;
   background-position: center;
   background-size: cover;
 }
 
 .training-category .card-image4 {
-  background-image: url(assets/img/entrepreneur.webp);
+  background-image: url(assets/img/malhub-uiux.jpg);
   height: 200px;
   background-position: center;
   background-size: cover;
 }
 
+.training-category .card-image5 {
+  background-image: url(assets/img/malhub-graphic-design.jpg);
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+.pb-40 {
+  padding-bottom: 70px !important;
+}
+
 .training-category .card-content {
   padding: 40px 30px;
-  height: 12em;
   position: relative;
 }
 
@@ -835,9 +849,17 @@ a {
   position: relative;
 }
 
-.content-banner {
-  background-image: url(assets/img/hero-full-stack-software-engineer.webp);
-  height: 100vh;
+.full-stack-banner {
+  background-image: url(assets/img/malhub-full-stack-banner.jpg);
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.data-science-bg {
+  background-image: url(assets/img/malhub-data-bg.webp);
+  height: 90vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -867,7 +889,7 @@ a {
 
 .content-banner .content h1 {
   font-weight: 500;
-  font-size: 45px;
+  font-size: 50px;
   color: white;
   line-height: 110%;
   margin-top: 20px;
@@ -899,6 +921,7 @@ a {
   padding-top: 30px;
   padding-bottom: 28px;
   margin-bottom: 92px;
+  width: 100%;
 }
 
 .list-wrap .list {
@@ -911,8 +934,8 @@ a {
 }
 
 .list-wrap .item {
-  width: 230px;
-  padding: 14px 20px;
+  width: 280px;
+  padding: 14px 10px;
 }
 
 .list-wrap h2 {
@@ -975,7 +998,7 @@ a {
 .text-image .text-content h2 {
   font-style: normal;
   font-weight: 500;
-  font-size: 26px;
+  font-size: 27px;
   line-height: 140%;
   color: #273245;
   margin-bottom: 25px;
@@ -997,7 +1020,7 @@ a {
 
 .text-image .text-content p {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 180%;
   letter-spacing: 0.25px;
   margin-bottom: 20px;
@@ -1009,6 +1032,10 @@ a {
   margin-left: auto;
   margin-right: 84px;
   margin-top: 6px;
+}
+
+.text-box h3 {
+  font-size: 22px !important;
 }
 
 .text-image .image-box span {
@@ -1046,7 +1073,7 @@ a {
 .image-text h2 {
   font-style: normal;
   font-weight: 500;
-  font-size: 26px;
+  font-size: 30px;
   line-height: 140%;
   color: #273245;
   margin-bottom: 34px;
@@ -1072,7 +1099,7 @@ a {
   position: relative;
 }
 
-.image-text .link .btn{
+.image-text .link .btn {
   min-width: 180px;
   padding: 8.5px 20px;
   font-size: 14px;
@@ -1095,7 +1122,8 @@ a {
   min-width: 310px;
 }
 
-.image-text .link .btn:hover, .take-the .link .btn:hover {
+.image-text .link .btn:hover,
+.take-the .link .btn:hover {
   color: #3dac94;
   background-color: white;
 }
@@ -1118,7 +1146,6 @@ a {
 .image-text:not(.has-bg) .image-box span {
   padding-top: 88.3299798793% !important;
 }
-
 
 .take-the {
   background: #fcfaf2;
@@ -1179,16 +1206,13 @@ a {
 .inner {
   max-width: 1270px;
   margin: 0 auto;
-  padding-left: 50px;
-  padding-right: 50px;
 }
-
 
 /* Gallery */
 .gallery {
   background: rgba(0, 0, 0, 0.1);
-  padding-top: 76px;
-  padding-bottom: 110px;
+  padding-top: 96px;
+  padding-bottom: 140px;
   margin-top: 100px;
   margin-bottom: 120px;
 }
@@ -1242,7 +1266,7 @@ a {
 }
 
 .ti-box-content .block h3 {
-  font-size: 24px;
+  font-size: 28px;
   font-style: normal;
   line-height: 30px;
   letter-spacing: 0px;
@@ -1250,7 +1274,6 @@ a {
 }
 
 .ti-box-content .img {
-  margin-bottom: 38px;
   width: 100%;
 }
 
@@ -1348,7 +1371,6 @@ img {
 }
 img {
   width: 100%;
-  height: auto;
 }
 
 .win-with-alx .win-with-alx-box .content .block p {
@@ -1419,25 +1441,23 @@ img {
 .testimoinals h1 {
   font-size: 40px;
   margin: 0;
-  
 }
-.underline{
+.underline {
   width: 100px;
   margin: auto;
   border-bottom: 4px dashed #0054fd;
 }
 
-.py-45{
+.py-45 {
   padding-bottom: 25px !important;
 }
-.testimoinals img{
+.testimoinals img {
   width: 100px;
   height: 100px;
 }
 .testimoinals .carousel-content h2 {
   font-size: 20px !important;
   color: #0054fd;
-  
 }
 .testimoinals .carousel-item p {
   font-size: 13px;
@@ -1500,7 +1520,7 @@ img {
   padding: 0 25px;
 }
 
-.breadcrumb-item+.breadcrumb-item {
+.breadcrumb-item + .breadcrumb-item {
   padding-left: 0;
 }
 
@@ -1508,11 +1528,11 @@ img {
   color: #010005;
 }
 
-a{
+a {
   text-decoration: none !important;
 }
 
-.breadcrumb-item+.breadcrumb-item::before {
+.breadcrumb-item + .breadcrumb-item::before {
   float: left;
   padding-right: 0px;
   content: "";
@@ -1542,7 +1562,8 @@ a{
   line-height: 1;
 }
 
-.contact-form input:not(input[type=radio]), .contact-form select {
+.contact-form input:not(input[type="radio"]),
+.contact-form select {
   background: #f8f8f8;
   color: #010005;
   height: 60px;
