@@ -124,6 +124,7 @@ paymentForm.addEventListener("submit", async (e) => {
       },
       body: JSON.stringify(data),
     };
+    POSTUSER(options)
     let handler = PaystackPop.setup({
       key: "pk_live_9b713d24e36a60bb38c42987a5eaa66564cd4a54", // Replace with your public key
       email: data.email,
@@ -137,7 +138,7 @@ paymentForm.addEventListener("submit", async (e) => {
         let message = "Payment complete! Reference: " + response.reference;
         if (message) {
           // alert(message);
-          POSTUSER(options)
+          window.location.replace('./congratulation.html')
         }
       },
     });
@@ -154,4 +155,6 @@ async function POSTUSER(params) {
     "https://api.malhub.org/courses/apply",
     params
   );
+  if (res.status === 201) {
+  }
 }
